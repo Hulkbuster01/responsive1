@@ -1,0 +1,28 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --orange: #ff6347;
+    --grey: #797878;
+    --grey-light: #d9d7d7;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Lato:wght@100;300;400&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* {
+    font-family:'Arvo', serif;
+    font-size: 16px;
+    margin: 0
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.container {
+    text-align: center;
+
+}
+
+
